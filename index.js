@@ -86,7 +86,7 @@ res.send(result)
 app.get("/price" , async(req , res) => {
   const minPrice = parseInt(req.query.minPrice);
   const maxPrice = parseInt(req.query.maxPrice);
-  console.log(minPrice , maxPrice);
+  // console.log(minPrice , maxPrice);
 
   const result = await productsCollection.find({
     price : {$gte : minPrice , $lte : maxPrice}
@@ -94,6 +94,7 @@ app.get("/price" , async(req , res) => {
   res.send(result);
 
 })
+
 
 
 
