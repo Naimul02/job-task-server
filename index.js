@@ -58,6 +58,7 @@ async function run() {
       // console.log(count)
       res.send({count})
     })
+
     // products per Page
     app.get('/productsPerPage' , async(req , res) => {
       const currentPage = parseInt(req.query.page);
@@ -84,6 +85,8 @@ const result = await productsCollection.find(query).toArray();
 res.send(result)
 })
 
+
+// price
 app.get("/price" , async(req , res) => {
   const minPrice = parseInt(req.query.minPrice);
   const maxPrice = parseInt(req.query.maxPrice);
