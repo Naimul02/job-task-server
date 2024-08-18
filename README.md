@@ -19,10 +19,11 @@ Ensure you have the following installed:
    cd job-task-server
 
 2. Install the dependencies:
+    
     npm install
-    ### or
+     or
     yarn install
 3. Start the server
     node index.js
-    ### or
+    or
     nodemon index.js
