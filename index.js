@@ -58,6 +58,7 @@ async function run() {
       // console.log(count)
       res.send({count})
     })
+    // products per Page
     app.get('/productsPerPage' , async(req , res) => {
       const currentPage = parseInt(req.query.page);
       const itemsPerPage = parseInt(req.query.size);
