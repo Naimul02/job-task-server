@@ -21,9 +21,14 @@ Ensure you have the following installed:
 2. Install the dependencies:
     
     npm install
+
      or
+
     yarn install
 3. Start the server
+
     node index.js
+
     or
+    
     nodemon index.js
