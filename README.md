@@ -16,4 +16,9 @@ Ensure you have the following installed:
 
    ```bash
    git clone https://github.com/Naimul02/job-task-server.git
-   cd backend-repo
+   cd job-task-server
+
+2. Install the dependencies:
+    npm install
+    ### or
+    yarn install
